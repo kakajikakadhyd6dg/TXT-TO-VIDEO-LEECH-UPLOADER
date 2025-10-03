@@ -7,8 +7,8 @@ API_HASH = environ.get("API_HASH", "c93589620441707c37c5683a02eea54e")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 # Force Subscribe Configuration
-FORCE_SUB_CHANNEL = environ.get("FORCE_SUB_CHANNEL", "agriculture supervisor")  # Channel username without @, 
-FORCE_SUB_CHANNEL_LINK = environ.get("FORCE_SUB_CHANNEL_LINK", "https://t.me/+-Cuo_nCT-O1jMzNl")  # Channel link
+FORCE_SUB_CHANNEL = environ.get("FORCE_SUB_CHANNEL", "agriculteebot1")  # Channel username without @, 
+FORCE_SUB_CHANNEL_LINK = environ.get("FORCE_SUB_CHANNEL_LINK", "https://t.me/agriculteebot1")  # Channel link
 
 # Admin Configuration
 ADMINS = list(map(int, environ.get("ADMINS", "8413546109").split()))
@@ -18,6 +18,7 @@ OWNER_ID = int(environ.get("OWNER_ID", "8413546109"))
 
 # Database URL (if you want to add database support later)
 DATABASE_URL = environ.get("DATABASE_URL", "mongodb+srv://ajmerasaini01:U1sGiZRI6Ha0xuCy@cluster0.tnok3d0.mongodb.net/")
+
 
 
 
